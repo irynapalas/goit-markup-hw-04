@@ -206,11 +206,30 @@ body {
 .work-principle-list {
 	display: flex;
 }
-
 .principle-list-item:not(:last-child) {
 	margin-right: 30px;
 }
-
+.principle-list-item::before {
+	content: "";
+	display: block;
+	height: 120px;
+	background: #f5f4fa;
+	border-radius: 4px;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.icon-attentiontodetails::before {
+	background-image: url(../images/work-princoples-icons-optimased/antenna.svg);
+}
+.icon-punctuality::before {
+	background-image: url(../images/work-princoples-icons-optimased/clock.svg);
+}
+.icon-planning::before {
+	background-image: url(../images/work-princoples-icons-optimased/diagram.svg);
+}
+.icon-moderntechnology::before {
+	background-image: url(../images/work-princoples-icons-optimased/astronaut.svg);
+}
 .principle-list-item-title {
 	font-weight: 700;
 	letter-spacing: 0.03em;
