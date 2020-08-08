@@ -318,6 +318,10 @@ body {
 	margin-right: 10px;
 }
 
+.icon-social-link {
+	background-color: #2196f3;
+}
+
 /* Section main clients */
 .clients-list {
 	display: flex;
