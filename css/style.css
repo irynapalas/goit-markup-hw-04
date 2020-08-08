@@ -223,16 +223,16 @@ body {
 	background-position: center;
 }
 .icon-attentiontodetails::before {
-	background-image: url(../images/work-princoples-icons-optimased/antenna.svg);
+	background-image: url(../images/work-principles-icons-optimised/antenna.svg);
 }
 .icon-punctuality::before {
-	background-image: url(../images/work-princoples-icons-optimased/clock.svg);
+	background-image: url(../images/work-principles-icons-optimised/clock.svg);
 }
 .icon-planning::before {
-	background-image: url(../images/work-princoples-icons-optimased/diagram.svg);
+	background-image: url(../images/work-principles-icons-optimised/diagram.svg);
 }
 .icon-moderntechnology::before {
-	background-image: url(../images/work-princoples-icons-optimased/astronaut.svg);
+	background-image: url(../images/work-principles-icons-optimised/astronaut.svg);
 }
 .principle-list-item-title {
 	font-weight: 700;
@@ -328,11 +328,23 @@ body {
 }
 .client-btn {
 	display: flex;
-	min-width: 170px;
+	width: 170px;
 	height: 90px;
 	border: 1px solid #afb1b8;
 	border-radius: 4px;
 	justify-content: center;
+	align-items: center;
+}
+.client-icons {
+	fill: currentColor;
+}
+.client-btn:hover,
+.client-btn:focus {
+	color: var(--accent-color);
+	border: 1px solid var(--accent-color);
+}
+.client-btn:hover .client-icons {
+	fill: var(--accent-color);
 }
 
 /*Footer Logo Address and contacts*/
