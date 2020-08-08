@@ -475,4 +475,5 @@ body {
 	line-height: 1.556;
 	letter-spacing: 0.03em;
 	color: var(--title-text-color);
+	background-color: var(--temporary-background-color);
 }
