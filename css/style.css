@@ -223,16 +223,16 @@ body {
 	background-position: center;
 }
 .icon-attentiontodetails::before {
-	background-image: url(../images/work-principles-icons-optimised/antenna.svg);
+	background-image: url(../images/work-principles-icons/antenna.svg);
 }
 .icon-punctuality::before {
-	background-image: url(../images/work-principles-icons-optimised/clock.svg);
+	background-image: url(../images/work-principles-icons/clock.svg);
 }
 .icon-planning::before {
-	background-image: url(../images/work-principles-icons-optimised/diagram.svg);
+	background-image: url(../images/work-principles-icons/diagram.svg);
 }
 .icon-moderntechnology::before {
-	background-image: url(../images/work-principles-icons-optimised/astronaut.svg);
+	background-image: url(../images/work-principles-icons/astronaut.svg);
 }
 .principle-list-item-title {
 	font-weight: 700;
