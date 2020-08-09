@@ -506,6 +506,8 @@ body {
 }
 .content-portfolio-list-item {
 	width: 370px;
+	background: #ffffff;
+	border: 1px solid #eeeeee;
 	/* width: calc((100%-60) / 3); */
 	/* background-color: teal; */
 }
