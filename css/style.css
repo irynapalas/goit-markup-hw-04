@@ -336,7 +336,7 @@ body {
 	border-radius: 50%;
 }
 .icon-social-links {
-	color: currentColor;
+	fill: currentColor;
 }
 .employee-social-links:hover,
 .employee-social-links:focus {
