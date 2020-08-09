@@ -122,7 +122,6 @@ body {
 .contacts-list .contacts-list-item + .contacts-list-item {
 	margin-left: 50px;
 }
-
 /* .contacts-list-item:not(:last-child) {
 	margin-right: 50px; 
 }*/
@@ -136,10 +135,16 @@ body {
 	color: #757575;
 	text-decoration: none;
 }
-
 .contacts-link:hover,
 .contacts-link:focus {
 	color: #2196f3;
+}
+.contacts-icon {
+	margin-right: 10px;
+}
+
+.contacts-link:hover .mail-icon {
+	fill: var(--accent-color);
 }
 
 /*Section Hero*/
@@ -152,7 +157,7 @@ body {
 	padding-bottom: 200px;
 
 	background-color: var(--temporary-background-color);
-	background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)),
+	background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
 		url(../images/hero-bunner/hero-img.jpg);
 	text-align: center;
 	border-top: 1px solid #ececec;
@@ -223,16 +228,16 @@ body {
 	background-position: center;
 }
 .icon-attentiontodetails::before {
-	background-image: url(../images/work-principles-icons/antenna.svg);
+	background-image: url(../images/icons-logo/work-principles-icons/antenna.svg);
 }
 .icon-punctuality::before {
-	background-image: url(../images/work-principles-icons/clock.svg);
+	background-image: url(../images/icons-logo/work-principles-icons/clock.svg);
 }
 .icon-planning::before {
-	background-image: url(../images/work-principles-icons/diagram.svg);
+	background-image: url(../images/icons-logo/work-principles-icons/diagram.svg);
 }
 .icon-moderntechnology::before {
-	background-image: url(../images/work-principles-icons/astronaut.svg);
+	background-image: url(../images/icons-logo/work-principles-icons/astronaut.svg);
 }
 .principle-list-item-title {
 	font-weight: 700;
@@ -286,6 +291,12 @@ body {
 .team-list {
 	display: flex;
 }
+.team-list-item {
+	background: #ffffff;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 0px 0px 4px 4px;
+	padding-bottom: 30px;
+}
 .team-list-item:not(:last-child) {
 	margin-right: 30px;
 }
@@ -317,9 +328,20 @@ body {
 .employee-links-list-item:not(:last-child) {
 	margin-right: 10px;
 }
-
-.icon-social-link {
-	background-color: #2196f3;
+.employee-social-links {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+}
+.employee-social-links:hover,
+.employee-social-links:focus {
+	background-color: var(--accent-color);
+}
+.employee-social-links:hover .icon-social-links {
+	fill: var(--title-text-color);
 }
 
 /* Section main clients */
