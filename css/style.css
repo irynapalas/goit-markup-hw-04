@@ -354,14 +354,15 @@ body {
 	display: flex;
 	width: 170px;
 	height: 90px;
+	color: #afb1b8;
 	border: 1px solid #afb1b8;
 	border-radius: 4px;
 	justify-content: center;
 	align-items: center;
 }
-/* .icon-client-logo {
+.icon-client-logo {
 	fill: currentColor;
-} */
+}
 .client-link:hover,
 .client-link:focus {
 	color: var(--accent-color);
