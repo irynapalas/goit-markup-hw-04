@@ -352,7 +352,7 @@ body {
 .clients-list-item:not(:last-child) {
 	margin-right: 30px;
 }
-.client-btn {
+.client-link {
 	display: flex;
 	width: 170px;
 	height: 90px;
@@ -361,15 +361,15 @@ body {
 	justify-content: center;
 	align-items: center;
 }
-.client-icons {
+/* .icon-client-logo {
 	fill: currentColor;
-}
-.client-btn:hover,
-.client-btn:focus {
+} */
+.client-link:hover,
+.client-link:focus {
 	color: var(--accent-color);
 	border: 1px solid var(--accent-color);
 }
-.client-btn:hover .client-icons {
+.client-link:hover .icon-client-logo {
 	fill: var(--accent-color);
 }
 
