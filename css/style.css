@@ -332,7 +332,11 @@ body {
 	align-items: center;
 	width: 44px;
 	height: 44px;
+	color: #afb1b8;
 	border-radius: 50%;
+}
+.icon-social-links {
+	color: currentColor;
 }
 .employee-social-links:hover,
 .employee-social-links:focus {
